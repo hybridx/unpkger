@@ -1,0 +1,25 @@
+{
+  "name": "unpackager",
+  "version": "1.0.0",
+  "description": "Change your npm links to unpkg links",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hybridx/unpkger.git"
+  },
+  "keywords": [
+    "unpkg",
+    "npm",
+    "links",
+    "automation"
+  ],
+  "author": "hybridx",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hybridx/unpkger/issues"
+  },
+  "homepage": "https://github.com/hybridx/unpkger#readme"
+}
