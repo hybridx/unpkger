@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/unpkger/',
+  base: `/${process.env.GITHUB_REPOSITORY?.split('/')[1] || 'unpkger'}/`,
   build: {
     outDir: 'dist'
   }
